@@ -16,5 +16,21 @@ public class Main {
             cachorro.correr();
             cachorro.morder();
         }
+        Shitzu shitzu = new Shitzu("Bento", 1, 5, "Shitzu", "Branco", "Macho", "Reginaldo & Helanya");
+        {
+            System.out.println(shitzu + "\n");
+            shitzu.latir();
+            shitzu.comer();
+            shitzu.passear();
+            shitzu.dormir();
+            shitzu.cagar();
+            shitzu.mijar();
+            shitzu.brincar();
+            shitzu.rosnar();
+            shitzu.correr();
+            shitzu.morder();
+            shitzu.ronronar();
+            shitzu.cavar();
+        }
     }
 }
