@@ -1,5 +1,5 @@
 public class Shitzu extends Cachorro {
-    public Shitzu(String nome, int idade, int peso, String raca, String cor, String sexo, String dono) {
+    public Shitzu(String nome, int idade, double peso, String raca, String cor, String sexo, String dono) {
         super(nome, idade, peso, raca, cor, sexo, dono);
     }
 

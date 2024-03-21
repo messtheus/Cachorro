@@ -16,7 +16,7 @@ public class Main {
             cachorro.correr();
             cachorro.morder();
         }
-        Shitzu shitzu = new Shitzu("Bento", 1, 5, "Shitzu", "Branco", "Macho", "Reginaldo & Helanya");
+        Shitzu shitzu = new Shitzu("Bento", 1, 2.300, "Shitzu", "Branco", "Macho", "Reginaldo & Helanya");
         {
             System.out.println(shitzu + "\n");
             shitzu.latir();

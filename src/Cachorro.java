@@ -1,13 +1,13 @@
 public class Cachorro {
     public String nome;
     public int idade;
-    public int peso;
+    public double peso;
     public String raca;
     public String cor;
     public String sexo;
     private String dono;
 
-    public Cachorro(String nome, int idade, int peso, String raca, String cor, String sexo, String dono) {
+    public Cachorro(String nome, int idade, double peso, String raca, String cor, String sexo, String dono) {
         this.nome = nome;
         this.idade = idade;
         this.peso = peso;
@@ -47,11 +47,11 @@ public class Cachorro {
         this.idade = idade;
     }
 
-    public int getPeso() {
+    public double getPeso() {
         return peso;
     }
 
-    public void setPeso(int peso) {
+    public void setPeso(double peso) {
         this.peso = peso;
     }
 
